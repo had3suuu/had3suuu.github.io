@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&R</title>
+    <style>
+        /* Root Variables for Colors */
+        :root {
+            --dark-blue: #222059;
+            --medium-blue: #0A5DA6;
+            --light-blue: #29A7D9;
+            --white: #FFFFFF;
+            --green: #027333;
+        }
+
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg); 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            color: #003366; 
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.8); 
+            color: #003366;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background: rgba(0, 0, 255, 0.8); 
+            padding: 0.8rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: yellow; 
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 20px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        main {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1100px;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        article:hover {
+            background-color: #f1f1f1;
+        }
+
+        article h3 {
+            margin: 0;
+            font-size: 1.4em;
+            color: #003366;
+        }
+
+        article p {
+            font-size: 1em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        article a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        article a:hover {
+            color: #0056b3;
+        }
+
+        .content {
+            height: 150vh;
+            background: #ddd;
+            padding: 20px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav a {
+                margin: 10px 0;
+            }
+
+            .box {
+                width: 100%;
+            }
+
+            .container {
+                width: 100%;
+            }
+
+            /* Adjust background settings for smaller screens */
+            body {
+                background-attachment: scroll; /* Prevent fixed background on mobile */
+                background-size: cover; /* Ensure image covers the screen */
+                background-position: center center; /* Ensure the image stays centered */
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>S&R (SIOMAI AND RICE)</h1>
+        <p>Home of the best Siomai</p>
+    </header>
+
+    <nav>
+        <a href="index.html" target="_blank">Home</a> 
+        <a href="about.html" target="_blank">About</a> 
+        <a href="menu.html" target="_blank">Menu</a> 
+        <a href="contact.html" target="_blank">Contact</a> 
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to S&R</h2>
+            <p>We offer the most delicious Siomai and Rice in town! Our dishes are made with love and the freshest ingredients.</p>
+            <article>
+                <h3>Our Story</h3>
+                <p>Founded in 2025, S&R (Siomai and Rice) has become a local favorite for its mouthwatering dumplings and delicious rice dishes. Come taste the tradition!</p>
+                <a href="about.html" target="_blank">Learn More About Us</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 S&R (SIOMAI AND RICE) - All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
