@@ -1,0 +1,151 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&R</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg); 
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            color: #003366; 
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.8); 
+            color: #003366;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background: rgba(0, 0, 255, 0.8); 
+            padding: 0.8rem;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: yellow; 
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 20px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        main {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1100px;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        article:hover {
+            background-color: #f1f1f1;
+        }
+
+        article h3 {
+            margin: 0;
+            font-size: 1.4em;
+            color: #003366;
+        }
+
+        article p {
+            font-size: 1em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        article a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        article a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>S&R (SIOMAI AND RICE)</h1>
+        <p>Home of the best Siomai</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="about.html">About</a> 
+        <a href="menu.html">Menu</a> 
+        <a href="contact.html">Contact</a> 
+    </nav>
+	<main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! If you have any questions, comments, or inquiries, feel free to reach out.</p>
+
+            <h3>Contact Information</h3>
+            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+            <p><strong>Email:</strong> <a href="mailto:support@s&r.com">support@s&r.com</a></p>
+
+            <h3>Visit Us</h3>
+            <p>We're located at 123 Siomai Street, Flavor Town, Philippines.</p>
+
+            <h3>Send Us a Message</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 S&R (SIOMAI AND RICE) - All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
